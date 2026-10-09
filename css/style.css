@@ -26,7 +26,7 @@ nav{
     margin-top: 50px;
     color: black;
     text-decoration: none;
-
+    justify-content: space-evenly;
 }
 .list:hover{
     color: #034BFF;
@@ -34,23 +34,21 @@ nav{
     text-underline-offset: 5px;
 }
 main{
-    display: flex;
     font-family: "Inter", sans-serif;
 }
 .hero{
     background-color: #08111D;
     width: 100%;
     display: flex;
-    padding-left: 10px;
+
     margin: 0;
 }
-.left{
-    
+.left{  
     width: 50%;
     margin-left: 50px;
     margin-top: 30px;
 }
-.x{
+.c{
     font-weight: 900;
     font-size: 76px;
     color: white;
@@ -106,5 +104,103 @@ main{
     width: 184px;
     height: 42px;
     background-color: #08111D;
+    color: #FFFFFF;
+}
+.shapes{
+    display: flex;
+    margin-top: 20px;
+}
+.circle1{
+    background-color: #B8C9CF;
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.circle2{
+    background-color: #D7C3B6;
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.txt{
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.bules{
+    display: flex;
+    gap: 20px;
+}
+.stats{
+justify-content: space-evenly;
+display: flex;
+padding: 20px;
+width: 100%;
+}
+.shape{
+    color: #034BFF;
+}
+.statpart1{
+    display: flex;
+    gap: 20px;
+}
+.statpart2{
+    display: flex;
+    gap: 20px;
+}
+.statpart3{
+    display: flex;
+    gap: 20px;
+}
+.statpart4{
+    display: flex;
+    gap: 20px;
+}
+.campus{
+    margin: 0px;
+    background-color: #F4F7FC;
+    height: 282px;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+.right1{
+    width: 50%;
+    margin-left: 50px;
+}
+.subheader{
+    color: #034BFF;
+    font-size: 10px;
+    font-weight: 400;
+}
+.big1{
+    margin-top: 20px;
+    font-size: 33px;
+    font-weight: 800;
+}
+.big2{
+    margin-top: 0px;
+    font-size: 33px;
+    font-weight: 800;
+}
+.txt1{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.txt2{
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.elc{
+    margin-top: 20px;
+    width: 179px;
+    height: 42px;
+    background-color: #034BFF;
     color: #FFFFFF;
 }
